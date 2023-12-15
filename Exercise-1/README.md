@@ -5,19 +5,6 @@ as well as learn about a very common task ... downloading data files
 from a `HTTP` source. 
 You will have to unzip the files with Python as well.
 
-
-#### Setup
-1. Change directories at the command line 
-   to be inside the `Exercise-1` folder `cd Exercises/Exercise-1`
-   
-2. Run `docker build --tag=exercise-1 .` to build the `Docker` image.
-
-3. There is a file called `main.py` in the `Exercise-1` directory, this
-is where you `Python` code to complete the exercise should go.
-   
-4. Once you have finished the project or want to test run your code,
-   run the following command `docker-compose up run` from inside the `Exercises/Exercise-1` directory
-
 #### Problems Statement
 You need to download 10 files that are sitting at the following specified
 `HTTP` urls. You will use the `Python` package `requests` to do this
