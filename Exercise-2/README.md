@@ -8,18 +8,6 @@ You will have to "web scrap" a `HTML` page looking for a date, and identifying
 the correct file to build a URL with which you can download said file.
 
 
-#### Setup
-1. Change directories at the command line 
-   to be inside the `Exercise-2` folder `cd Exercises/Exercise-2`
-   
-2. Run `docker build --tag=exercise-2 .` to build the `Docker` image.
-
-3. There is a file called `main.py` in the `Exercise-2` directory, this
-is where you `Python` code to complete the exercise should go.
-   
-4. Once you have finished the project or want to test run your code,
-   run the following command `docker-compose up run` from inside the `Exercises/Exercise-2` directory
-
 #### Problems Statement
 You need to download a file of weather data from a government website.
 files that are sitting at the following specified location.
